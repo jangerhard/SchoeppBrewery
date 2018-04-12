@@ -1,6 +1,6 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Gatsby Default Starter',
-  },
-  plugins: ['gatsby-plugin-react-helmet'],
-}
+    siteMetadata: {
+        title: 'Schoepp\s Bryggeri',
+    },
+    plugins: ['gatsby-plugin-react-helmet'],
+};
