@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
     <div>
         <h1>Welcome to Schøpp's Bryggeri</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <p>This page is still under construction</p>
+        <p>Contact me if you have any questions!</p>
     </div>
 );
 
