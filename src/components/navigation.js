@@ -1,7 +1,8 @@
+import React from 'react'
 import style from './navigation.module.css'
 import Link from 'gatsby-link';
 
-const Navigation = () => (
+const NavigationHeader = () => (
 
     <div className={style.container}>
         <Link to={"/habadenero/"} className={style.link} data-ripple="true">
@@ -13,4 +14,4 @@ const Navigation = () => (
     </div>
 );
 
-export default Navigation;
+export default NavigationHeader;
