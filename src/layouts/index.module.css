@@ -1,0 +1,49 @@
+@supports (display: grid) {
+
+    @media screen and (min-width: 480px) {
+
+        .header {
+            grid-area: header;
+        }
+
+        .nav {
+            grid-area: nav;
+        }
+
+        .content {
+            grid-area: content;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas:
+                    "header header header"
+                    "image image image"
+                    "footer footer footer"
+                    "nav content content";
+        }
+    }
+
+    @media screen and (min-width: 780px) {
+
+        .wrapper {
+            grid-template-areas:
+                    "header header header"
+                    "image image image"
+                    "nav content footer"
+        }
+    }
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.0875rem 1.45rem;
+}
+

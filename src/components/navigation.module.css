@@ -9,10 +9,21 @@
     padding-top: 1.45rem;
     padding-bottom: 1.0875rem;
     max-width: 960px;
+    display: flex;
+    flex-direction: row;
 }
 
 .background {
     background: dimgrey;
     display: flex;
     justify-content: center;
+}
+
+@supports (display: grid) {
+
+    @media screen and (min-width: 480px) {
+        .container {
+            flex-direction: column;
+        }
+    }
 }
