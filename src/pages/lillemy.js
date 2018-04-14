@@ -3,6 +3,9 @@ import React from 'react'
 const LilleMy = () => (
 
     <div>
+
+        { false &&
+
         <div style={{
             gridArea: "image"
         }}>
@@ -12,6 +15,7 @@ const LilleMy = () => (
                 height: "500px"
             }} />
         </div>
+        }
 
         <div>
             <h1>Lille My</h1>

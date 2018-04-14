@@ -1,22 +1,25 @@
 @supports (display: grid) {
 
+    .header {
+        grid-area: header;
+    }
+
+    .nav {
+        grid-area: nav;
+    }
+    .image {
+        grid-area: image;
+    }
+
+    .content {
+        grid-area: content;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
     @media screen and (min-width: 480px) {
-
-        .header {
-            grid-area: header;
-        }
-
-        .nav {
-            grid-area: nav;
-        }
-
-        .content {
-            grid-area: content;
-        }
-
-        .footer {
-            grid-area: footer;
-        }
 
         .wrapper {
             display: grid;
