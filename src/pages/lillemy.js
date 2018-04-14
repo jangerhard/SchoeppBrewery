@@ -1,10 +1,21 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const LilleMy = () => (
+
     <div>
-        <h1>Lille My</h1>
-        <p>Ginger Pear Deliciousness</p>
+        <div style={{
+            gridArea: "image",
+            backgroundImage: "url(https://www.thenewyorkworld.com/wp-content/uploads/2017/10/nyc.png)",
+            width: "800px",
+            height: "500px"
+        }}>
+
+        </div>
+
+        <div>
+            <h1>Lille My</h1>
+            <p>Ginger Pear Deliciousness</p>
+        </div>
     </div>
 );
 
