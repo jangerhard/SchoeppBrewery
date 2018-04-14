@@ -5,7 +5,6 @@
 }
 
 .background {
-    background: aquamarine;
     display: flex;
     justify-content: center;
 }
