@@ -24,7 +24,7 @@
         .wrapper {
             display: grid;
             grid-column-gap: 10px;
-            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-columns: 1fr auto 1fr;
             grid-template-areas:
                     "header header header"
                     "image image image"
