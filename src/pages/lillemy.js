@@ -4,12 +4,13 @@ const LilleMy = () => (
 
     <div>
         <div style={{
-            gridArea: "image",
-            backgroundImage: "url(https://www.thenewyorkworld.com/wp-content/uploads/2017/10/nyc.png)",
-            width: "800px",
-            height: "500px"
+            gridArea: "image"
         }}>
-
+            <div style={{
+                backgroundImage: "url(https://www.thenewyorkworld.com/wp-content/uploads/2017/10/nyc.png)",
+                width: "800px",
+                height: "500px"
+            }} />
         </div>
 
         <div>
